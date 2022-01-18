@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/46177a16-49b0-404c-b917-cb085f993e25/resourceGroups/linux-app-services/providers/Microsoft.Web/sites/fakerjs",
+  "appService.deploySubpath": "."
+}
