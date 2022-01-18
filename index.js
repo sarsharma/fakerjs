@@ -3,8 +3,14 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+const endpoints = {
+  "Random Name": "/name",
+  "Random Email": "/email",
+  "Random Phone Number": "/phone",
+};
+
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.json(endpoints);
 });
 
 app.get("/name", (req, res) => {
